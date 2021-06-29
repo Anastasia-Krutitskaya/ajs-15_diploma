@@ -30,6 +30,8 @@ export class Bowman extends Character {
     super(level, 'bowman');
     this.attack = 25;
     this.defence = 25;
+    this.attackRange = 2;
+    this.moveRange = 2;
   }
 }
 
@@ -38,6 +40,8 @@ export class Swordsman extends Character {
     super(level, 'swordsman');
     this.attack = 40;
     this.defence = 10;
+    this.attackRange = 1;
+    this.moveRange = 4;
   }
 }
 
@@ -46,6 +50,8 @@ export class Magician extends Character {
     super(level, 'magician');
     this.attack = 10;
     this.defence = 40;
+    this.attackRange = 4;
+    this.moveRange = 1;
   }
 }
 
@@ -54,6 +60,8 @@ export class Daemon extends Character {
     super(level, 'daemon');
     this.attack = 10;
     this.defence = 40;
+    this.attackRange = 4;
+    this.moveRange = 1;
   }
 }
 
@@ -62,6 +70,8 @@ export class Undead extends Character {
     super(level, 'undead');
     this.attack = 40;
     this.defence = 10;
+    this.attackRange = 1;
+    this.moveRange = 4;
   }
 }
 
@@ -70,6 +80,8 @@ export class Vampire extends Character {
     super(level, 'vampire');
     this.attack = 25;
     this.defence = 25;
+    this.attackRange = 2;
+    this.moveRange = 2;
   }
 }
 
